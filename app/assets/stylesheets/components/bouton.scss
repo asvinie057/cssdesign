@@ -1,38 +1,38 @@
-
 searchbar {
-   position:relative;
-   width:1040px;
-   height:auto;
+   position: relative;
+   width: 1040px;
+   height: auto;
    padding: 10px 10px 10px 50px;
    display: flex;
    justify-content: center;
-  }
+}
 
-.formulaire .champ       {
-   width:800px;
-   height:35px;
-   border-radius: 12px;
-   height: 35px;
-   background-color:#DBDBDB!important;
- }
-
-.formulaire .bouton      {
+.formulaire .champ {
+  width: 800px;
+  height: 35px;
+  border-radius: 12px;
+  height: 35px;
   background-color:#DBDBDB!important;
-  font-family:Verdana,sans-serif;
-  text-color:#232526!important;
+}
+
+.formulaire .bouton {
+  background-color: #DBDBDB!important;
+  font-family: Verdana,sans-serif;
+  color: #232526!important;
   background-repeat: no-repea;
-  width:50px;height: 40px;
+  width: 50px;
+  height: 40px;
   padding: 0;
   border-radius: 12px;
- }
+}
 
- .button {
-   background-color:#DBDBDB!important;
-   font-family: Verdana,sans-serif;
-   color: blue;
-   background-repeat: no-repeat;
-   width:60px;
-   height: 40px;
-   padding: 0;
+.button {
+  background-color: #DBDBDB;
+  font-family: Verdana,sans-serif;
+  color: blue;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 40px;
+  padding: 0;
   border-radius: 12px;
- }
+}
