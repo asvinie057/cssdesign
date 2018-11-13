@@ -1,4 +1,5 @@
 
+<%= render 'home/navbar' %>
     <div  ng-app="main" ng-controller="mainCntr">   
     <div class="carrousel">
     <div class="card" card delay="{{$index}}" ng-repeat="item in [1,2,3,4,5,6,7,8]"><%= image_tag("gerardo-marrufo-1146971-unsplash.jpg") %><%= image_tag("joshua-chun-1146504-unsplash.jpg")%> <%=image_tag ("adult-blur-close-up-1579001.jpg") %></div>
@@ -13,3 +14,7 @@
                     <input class="bouton" type="button" value=" " />  
                 </form>
                 </div>
+
+
+
+
