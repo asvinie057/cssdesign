@@ -9,7 +9,7 @@
 	<li><code> rails db:create</code></li>
 	<li><code> rails db:migrate</code></li>
 	<li><code> rails s </code></li>
-	<li><code> Domain: <a>href="https://cssdesignjuliencamiloasvinie.herokuapp.com/">Ici</a> </code></li>
+	<li><code> Domain: <a href="https://cssdesignjuliencamiloasvinie.herokuapp.com/">Ici</a> </code></li>
 </ul>
 <br/>
   <h2>Team</h2>
