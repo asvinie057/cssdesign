@@ -1,1 +1,18 @@
-  
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-links-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.nav-li {
+  display: inline;
+}
+.nav-links-right {
+  justify-content: right;
+}
