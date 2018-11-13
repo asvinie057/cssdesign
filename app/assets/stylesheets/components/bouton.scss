@@ -1,7 +1,10 @@
 searchbar {
-  position: absolute;
-  width: 1040px;
-  height: auto;
+   position: relative;
+   width: 1040px;
+   height: auto;
+   padding: 10px 10px 10px 50px;
+   display: flex;
+   justify-content: center;
 }
 
 .formulaire .champ {
@@ -9,6 +12,7 @@ searchbar {
   height: 35px;
   border-radius: 12px;
   height: 35px;
+  background-color:#DBDBDB!important;
 }
 
 .formulaire .bouton {
