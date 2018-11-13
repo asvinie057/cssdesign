@@ -1,3 +1,110 @@
+html
+{
+  background-color: #222;
+}
+
+.carrousel
+{
+	-webkit-perspective: 250px;
+	-moz-perspective: 250px;
+	width: 500px;
+	height: 250px;
+	top:100px;
+	position: relative;
+	margin: 0 auto;
+}
+
+@-webkit-keyframes carrousel
+{
+  from
+  {
+	  -webkit-transform: rotateY( 360deg ) translateZ( 200px ) rotateY( -360deg );
+	  -moz-transform: rotateY( 360deg ) translateZ( 200px ) rotateY( -360deg );
+	  z-index: 10;
+	  opacity: 0.9
+  }
+  50%
+  {
+    z-index: -10;
+  }
+  to 
+  {
+	  -webkit-transform: rotateY( 0deg ) translateZ( 100px ) rotateY( 0deg );
+    -moz-transform: rotateY( 0deg ) translateZ( 100px ) rotateY( 0deg );
+	  z-index: 10;
+	  opacity: 0.9
+  }
+}
+
+@-moz-keyframes carrousel
+{
+  from
+  {
+	  -moz-transform: rotateY( 360deg ) translateZ( 100px ) rotateY( -360deg );
+	  z-index: 10;
+	  opacity: 0.9
+  }
+  50%
+  {
+    z-index: -10;
+  }
+  to
+  {
+	  -moz-transform: rotateY( 0deg ) translateZ( 100px ) rotateY( 0deg );
+	  z-index: 10;
+	  opacity: 0.9
+  }
+}
+
+.card
+{
+	width: 50px;
+	height: 80px;
+	background-color: #442222;
+  font-size: 40px;
+	opacity: 0;
+	position: absolute;
+	top:35px;
+	left:125px;
+	border: solid darkgray 2px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+  text-align: center;
+  -webkit-animation-name: carrousel;
+  -moz-animation-name: carrousel;
+  -webkit-animation-duration: 8s;
+  -moz-animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+ }
+
+.card:hover
+{
+  border: solid #4466cc 3px;
+  box-shadow: 0px 0px 10px #4466cc;
+}
+#c2
+{
+  background-image: img src="../app/assets/images/adult-blur-close-up-1579001.jpg";
+	-webkit-animation-delay: -5s;
+	-moz-animation-delay: -5s;
+}
+#c1
+{
+  background-image: url(../app/assets/images/gerardo-marrufo-1146971-unsplash.jpg);
+	-webkit-animation-delay: -6s;
+	-moz-animation-delay: -6s;
+}
+#c0
+{
+  background-image: url(../images/joshua-chun-1146504-unsplash.jpg);
+	-webkit-animation-delay: -7s;
+	-moz-animation-delay: -7s;
+}
+
+
 
 
 
