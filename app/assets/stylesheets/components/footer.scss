@@ -1,25 +1,18 @@
 footer{
-  background-color: rgba(0, 0, 0, 1);;
+  background-color: #DBDBDB;
   flex: 0 0 auto; /* Le footer peut prendre l'espace qu'il veut */
-  line-height: 40px; /* taille */
+  line-height: 30px; /* taille */
   position: absolute; /* position viens avec bottom et width pour que le footer reste à la fin */
   bottom: 0;
-  width: 20%;
+  width: 10%;
 }
 footer span
 {
-  color: rgba(0,0,0,.54);
   margin-left: 30px;
-}
 
+}
 
 .default_color
-{
-  text-decoration:none; /* supprimer l'effet des liens */
-  color: rgba(0,0,0,.54);
-}
-
-.defaultcolormargin
 {
   text-decoration:none;
   color: rgba(0,0,0,.54);
