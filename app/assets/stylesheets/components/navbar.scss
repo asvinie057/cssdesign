@@ -1,1 +1,26 @@
-  
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.nav-img {
+  height: 50px;
+  width: 246px;
+}
+
+.nav-links-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: baseline;
+}
+
+.nav-li {
+  display: inline;
+}
+.nav-links-right {
+  align-items: baseline;
+  justify-content: right;
+}
